@@ -4,8 +4,8 @@
 #### Visual Code
 - Design system
 - UI Library / Package
-#### Code structure
-- Design system
+#### Code Structure
+- Folder Structure
 - Component internal structure
 - Naming conventions
 - Coding conventions
