@@ -50,7 +50,7 @@ The components module is simply a compilation of purely functional components th
 The services module constitutes a collection of APIs that interact with the backend, ensuring that the resulting response aligns with the core data types present in our common modules.
 
 
-## React-Redux Architecture Overview
+## React-Store Architecture Overview
 
 ![image-Arc2](https://github.com/paghar/Frontend-Architecture-Principle/assets/66066475/e2c9b3a2-f651-418d-a678-c82d4cb4c32a)
 

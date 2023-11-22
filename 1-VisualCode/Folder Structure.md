@@ -7,17 +7,19 @@ The top level directory structure is as follows:
 
 **components:** global shared/reusable components, such as layout (wrappers, navigation),form components, buttons
 
+**containers:**
+
+**hooks:** The "hooks" folder encompasses all the custom hooks within your entire project. This folder proves valuable in projects of any size, as nearly every project tends to incorporate multiple custom hooks. Having a centralized location to house them proves to be highly advantageous.
+
 **services :** JavaScript modules
 
-**store:** Global Redux store
+**state:** Global Redux store
 
 **utils:** Utilities, helpers, constants, and the like
 
-**pages:** the majority of the app would be contained here
+**pages:** This folder is meant to house individual folders for each page in your application. Within these page-specific folders, there should be a singular root file representing your page, typically named index.js. Additionally, include all files relevant solely to that particular page within these folders.
 
 **type:** typescript type
-
-**middleware:** 
 
 
 ```bash
@@ -26,12 +28,13 @@ The top level directory structure is as follows:
 └── /src
     ├── /assets
     ├── /components
+    ├── /containers
+    ├── /hooks
     ├── /services
-    ├── /store
+    ├── /state
     ├── /utils
-    ├── /pages
-    ├── /type
-    ├── /middleware
+    ├── /pages   
+    ├── /type 
     ├── index.js
     └── App.js
 ```
@@ -114,14 +117,14 @@ module.exports = {
     │   │   ├── /authentication.slice.js
     │   │   ├── /authentication.actions.js
     │   │   └── /authentication.test.js
-    │   ├── /authors
-    │   │   ├── /authors.slice.js
-    │   │   ├── /authors.actions.js
-    │   │   └── /authors.test.js
-    │   └── /books
-    │       ├── /books.slice.js
-    │       ├── /books.actions.js
-    │       └── /books.test.js
+    │   ├── /folders
+    │   │   ├── /folders.slice.js
+    │   │   ├── /folders.actions.js
+    │   │   └── /folders.test.js
+    │   └── /files
+    │       ├── /files.slice.js
+    │       ├── /files.actions.js
+    │       └── /files.test.js
     ├── rootReducer.js
     └── index.js
 ```
@@ -153,13 +156,13 @@ module.exports = {
         │   └── /AuthorBlurb
         │       ├── /AuthorBlurb.js
         │       └── /AuthorBlurb.test.js
-        ├── /Books
-        │   ├── /BooksPage
-        │   │   ├── BooksPage.js
-        │   │   └── BooksPage.test.js
-        │   └── /BookForm
-        │       ├── /BookForm.js
-        │       └── /BookForm.test.js
+        ├── /Folders
+        │   ├── /FoldersPage
+        │   │   ├── FoldersPage.js
+        │   │   └── FoldersPage.test.js
+        │   └── /FolderForm
+        │       ├── /FolderForm.js
+        │       └── /FolderForm.test.js
         └── /Login
             ├── LoginPage
             │   ├── LoginPage.styles.js
