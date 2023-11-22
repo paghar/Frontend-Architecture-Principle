@@ -1,5 +1,5 @@
-![image-Arc2](https://github.com/paghar/Frontend-Architecture-Principle/assets/66066475/e2c9b3a2-f651-418d-a678-c82d4cb4c32a)
-# Modular Architecture for Pixflow Application
+
+# Modular Architecture for Application
 
 A modular architecture refers to organizing your codebase into modular, reusable components. This approach helps in maintaining a clear and scalable code structure. Each component should ideally represent a self-contained and reusable piece of the user interface.
 
@@ -52,6 +52,6 @@ The services module constitutes a collection of APIs that interact with the back
 
 ## React-Redux Architecture Overview
 
-![Uplo[Uploading ProWritingAid Everywhere.lnk…]()ading image-Arc2.jpg…]()
+![image-Arc2](https://github.com/paghar/Frontend-Architecture-Principle/assets/66066475/e2c9b3a2-f651-418d-a678-c82d4cb4c32a)
 
 
