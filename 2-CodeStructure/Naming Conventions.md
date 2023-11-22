@@ -44,3 +44,35 @@ fullPrice = price * 100 / discount;
 ```
 
 *Note: Don't start names with a $ sign. It will put you in conflict with many JavaScript library names.*
+
+## Word Choice
+
+✔️DO choose easily readable identifier names:
+
+For example, a property named HorizontalAlignment is more English-readable than  AlignmentHorizontal.
+
+✔️ DO favor readability over brevity.
+
+The property name CanScrollHorizontally is better than ScrollableX (an obscure reference to the X-axis).
+
+❌ DO NOT use underscores, hyphens, or any other nonalphanumeric characters.
+
+❌ DO NOT use Hungarian notation.
+
+❌ AVOID using identifiers that conflict with keywords of widely used programming languages.
+
+## Using Abbreviations and Acronyms
+
+❌ DO NOT use abbreviations or contractions as part of identifier names.
+
+For example, use GetWindow rather than GetWin.
+
+❌ DO NOT use any acronyms that are not widely accepted, and even if they are, only when necessary.
+
+## Avoiding Language-Specific Names
+
+✔️ DO use semantically interesting names rather than language-specific keywords for type names.
+
+For example, GetLength is a better name than GetInt.
+
+✔️ DO use a generic CLR type name, rather than a language-specific name, in the rare cases when an identifier has no semantic meaning beyond its type.

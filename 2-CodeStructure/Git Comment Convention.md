@@ -36,18 +36,3 @@
 (!!!)(DB)[FEATURE] Rewrite stored procedure
 
 Additional information about commit changes
-
-
-## Source
-- [WIKI OpenStack Information in commit messages](https://wiki.openstack.org/wiki/GitCommitMessages#Information_in_commit_messages)
-- [Karma-Runner Git Commit Msg](http://karma-runner.github.io/0.8/dev/git-commit-msg.html)
-- [Wiki.Typo3.Org CommitMessage Format](http://wiki.typo3.org/CommitMessage_Format_(Git))
-- [How to Write a Git Commit Message ](https://webcache.googleusercontent.com/search?q=cache:PM7POmjONvgJ:https://chris.beams.io/posts/git-commit/+&cd=1&hl=sl&ct=clnk&gl=si&client=firefox-b-d)
-
-
-## Useful links
- - [Better Code Reviews with GIT](https://www.red-gate.com/simple-talk/dotnet/software-delivery/better-code-reviews-with-git/)
- - [Part 1: Pre-Review Comments](https://www.red-gate.com/simple-talk/dotnet/.net-framework/the-zen-of-code-reviews-pre-review-comments/)
- - [Part 2: Best Practices](https://www.red-gate.com/simple-talk/dotnet/.net-framework/the-zen-of-code-reviews-best-practices/)
- - [Part 3: The Reviewer’s Tale](https://www.red-gate.com/simple-talk/dotnet/.net-framework/the-zen-of-code-reviews-the-reviewer's-tale/)
- - [Part 4: Review as if You Own the Code](https://www.red-gate.com/simple-talk/dotnet/.net-framework/the-zen-of-code-reviews-review-as-if-you-own-the-code/)
