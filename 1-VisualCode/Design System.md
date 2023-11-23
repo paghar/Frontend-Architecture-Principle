@@ -54,4 +54,11 @@ The services module constitutes a collection of APIs that interact with the back
 
 ![image-Arc2](https://github.com/paghar/Frontend-Architecture-Principle/assets/66066475/e2c9b3a2-f651-418d-a678-c82d4cb4c32a)
 
+## The Front End Diagram
+
+![flow1](https://github.com/paghar/Frontend-Architecture-Principle/assets/66066475/7d1b863f-4989-479d-9285-d1c3a0e2652a)
+
+
+![flow2](https://github.com/paghar/Frontend-Architecture-Principle/assets/66066475/bd9184a2-b295-47e7-8832-d0f6f6a310d2)
+
 
